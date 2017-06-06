@@ -21,6 +21,6 @@ class JellyBean < Dessert
     @calories = 5
   end
   def delicious?
-    flavor != "licorice"
+    @flavor != "licorice"
   end
 end
